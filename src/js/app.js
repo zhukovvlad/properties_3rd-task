@@ -1,6 +1,13 @@
 // TODO: write your code here
-import sum from './basic';
+import createDescription from './createDescription';
 
-console.log('worked');
+const user = {
+  name: 'Лучник',
+  type: 'zombie',
+  health: 50,
+  level: 1,
+  attack: 40,
+  defence: 10,
+};
 
-console.log(sum([1, 2]));
+console.log(createDescription(user));
